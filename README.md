@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express routing and express helpers like res.send/res.status
+
 - [ ] Describe Middleware?
+
+Middleware is something you use to change/interpret the data you are sending through your pipeline in a specific way.
 
 - [ ] Describe a Resource?
 
+Almost everything is a resourse. For example, with Slack, some resources include avatar, messages, channels, and users.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status with the number 200
+
 - [ ] How can we partition our application into sub-applications?
+
+Using Express we can break our server up into individual routers to make it easier to manage.
 
 ## Project Setup
 
